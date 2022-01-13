@@ -1,0 +1,77 @@
+:root {
+  --bg-color: #0C0B0B;
+  --bg--secondary-color: #0F0E0E;
+  --font-primary-color: #B7B7B7;
+  --bg-card-green: #046313;
+  --bg-card-blue: #044A7D;
+  --bg-card-amarelo: #725200;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.global {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Rubik', sans-serif;
+  color: var(--font-primary-color);
+}
+
+.container{
+  height: auto;
+  padding: 0.1rem 0;
+  margin-top: 6rem;
+  background-color: #044A7D;
+}
+
+.profile {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.profile-content{
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 2rem;
+}
+
+.profile__info--img{
+  border-radius: 50%;
+  width: 7rem;
+}
+
+.profile__content--card {
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+
+  border-radius: 5%;
+  text-align: left;
+  text-indent: 1.5rem;
+}
+
+.profile__content--text {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.profile__content--info {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.card--green {
+  background-color: var(--bg-card-green);
+}
+
+.card--blue {
+  background-color: var(--bg-card-blue);
+}
+
+.card--yellow {
+  background-color: var(--bg-card-amarelo);
+}
