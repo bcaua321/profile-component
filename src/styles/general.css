@@ -33,5 +33,43 @@
 
 .profile {
   width: 90%;
+  padding: 0;
   margin: 0 auto;
+}
+
+@media (min-width: 767px) {
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .profile {
+    height: 100%;
+    width: 85%; 
+    padding: 5rem 2rem;
+  }
+  
+  .global {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .container {
+    padding: 0.1rem 0; 
+    width: calc(100vw - 20vw);
+  }
+
+}
+
+@media (min-with: 1369px) {
+  .profile {
+    width: 1000px;
+  }
+
+  .container {
+    height: 1200px;
+  }
 }

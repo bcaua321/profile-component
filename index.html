@@ -13,33 +13,41 @@
   
   <!-- Styles -->
   <link rel="stylesheet" href="./src/styles/reset.css">
-  <link rel="stylesheet" href="./src/styles/general.css">
   <link rel="stylesheet" href="./src/styles/profile-content.css">
   <link rel="stylesheet" href="./src/styles/profile-info.css">
-
+  <link rel="stylesheet" href="./src/styles/general.css">
+  
 </head>
 <body class="global">
   <main class="container">
     <div class="profile">
       <section class="profile__info flex">
-        <img src="./src/imgs/perfil.png" alt="" class="profile__info--img">
-        <h1 class="profile__info--name">Breno Prestes</h1>
-        <p class="profile__info--tag">@brn_prestes</p>
-        <button class="profile__info--edit"><i class="fas fa-edit"></i>Editar</button>
+        <section class="profile__info--data">
+          <div class="img">
+            <img src="./src/imgs/perfil.png" alt="" class="profile__info--img">
+          </div>
+          <div class="text">
+            <h1 class="profile__info--name">Breno Prestes</h1>
+            <p class="profile__info--tag">@brn_prestes</p>
+          </div>
+        </section>
+        <section class="profile__info--edit">
+          <button class="button__edit"><i class="fas fa-edit"></i>Editar</button>
+        </section>
       </section>
-    </div>
-    <div class="profile profile-content">
-      <section class="profile__content--card card--green">
-        <p class="profile__content--text">Projetos</p>
-        <p class="profile__content--info">11</p>
-      </section>
-      <section class="profile__content--card card--blue">
-        <p class="profile__content--text">Estrelas</p>
-        <p class="profile__content--info">12</p>
-      </section>
-      <section class="profile__content--card card--yellow">
-        <p class="profile__content--text">Seguidores</p>
-        <p class="profile__content--info">28</p>
+      <section class="profile-content">
+        <section class="profile__content--card card--green">
+          <p class="profile__content--text">Projetos</p>
+          <p class="profile__content--info">11</p>
+        </section>
+        <section class="profile__content--card card--blue">
+          <p class="profile__content--text">Estrelas</p>
+          <p class="profile__content--info">12</p>
+        </section>
+        <section class="profile__content--card card--yellow">
+          <p class="profile__content--text">Seguidores</p>
+          <p class="profile__content--info">28</p>
+        </section>
       </section>
     </div>
     <script src="https://kit.fontawesome.com/c356e7712a.js" crossorigin="anonymous"></script>

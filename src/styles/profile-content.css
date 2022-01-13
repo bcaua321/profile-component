@@ -35,3 +35,40 @@
 .card--yellow {
   background-color: var(--bg-card-amarelo);
 }
+
+@media (max-width: 320px){
+  .profile__content--text {
+    font-size: 1rem;
+  }
+
+  .profile__content--info {
+    font-size: 2.7rem;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 767px) {
+  .profile-content{
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile__content--card {
+    width: calc(100% - 70%);
+    text-align: left;
+    text-indent: 1.5rem;
+    border-radius: 0.5rem;
+  }
+}
+
+@media (min-with: 1369px) {
+  .profile-content{
+    max-width: 1000px;
+  }
+
+  .profile__content--card {
+    max-width: 5rem;
+  }
+}
